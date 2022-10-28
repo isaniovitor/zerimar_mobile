@@ -102,8 +102,8 @@
                 android:inputType="textPersonName|textPassword"
                 android:shadowColor="@color/white"
                 android:textColor="@color/gray_two"
-                android:textColorHint="@color/white"
-                android:textSize="16sp"
+                android:textColorHint="@color/gray_two"
+                android:textSize="14sp"
                 app:layout_constraintBottom_toTopOf="@+id/nacnoEdit"
                 app:layout_constraintTop_toBottomOf="@+id/nameVacncyToEdit"
                 tools:layout_editor_absoluteX="12dp" />
@@ -119,8 +119,8 @@
                 android:inputType="textPersonName|textPassword"
                 android:shadowColor="@color/white"
                 android:textColor="@color/gray_two"
-                android:textColorHint="@color/white"
-                android:textSize="16sp"
+                android:textColorHint="@color/gray_two"
+                android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/ewwd"
                 tools:layout_editor_absoluteX="12dp" />
@@ -135,8 +135,8 @@
                 android:inputType="textPersonName"
                 android:shadowColor="@color/white"
                 android:textColor="@color/gray_two"
-                android:textColorHint="@color/white"
-                android:textSize="16sp"
+                android:textColorHint="@color/gray_two"
+                android:textSize="14sp"
                 app:layout_constraintBottom_toTopOf="@+id/nameVacncyToEdit"
                 app:layout_constraintTop_toBottomOf="@+id/textiew2"
                 tools:layout_editor_absoluteX="8dp" />
@@ -151,8 +151,8 @@
                 android:inputType="textPersonName|textPassword"
                 android:shadowColor="@color/white"
                 android:textColor="@color/gray_two"
-                android:textColorHint="@color/white"
-                android:textSize="16sp"
+                android:textColorHint="@color/gray_two"
+                android:textSize="14sp"
                 app:layout_constraintBottom_toTopOf="@+id/ewwd"
                 app:layout_constraintTop_toBottomOf="@+id/nameVacancyToEdit"
                 tools:layout_editor_absoluteX="-6dp" />
@@ -181,6 +181,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/guideline2"
             app:layout_constraintTop_toBottomOf="@+id/signUpAsPhotographer">
+
             <EditText
                 android:id="@+id/nacnççoEdit"
                 android:layout_width="match_parent"
@@ -191,8 +192,8 @@
                 android:inputType="textPersonName|textPassword"
                 android:shadowColor="@color/white"
                 android:textColor="@color/gray_two"
-                android:textColorHint="@color/white"
-                android:textSize="16sp"
+                android:textColorHint="@color/gray_two"
+                android:textSize="14sp"
                 app:layout_constraintBottom_toTopOf="@+id/nameVacancççyToEdit"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:layout_editor_absoluteX="12dp" />
@@ -207,8 +208,8 @@
                 android:inputType="textPersonName"
                 android:shadowColor="@color/white"
                 android:textColor="@color/gray_two"
-                android:textColorHint="@color/white"
-                android:textSize="16sp"
+                android:textColorHint="@color/gray_two"
+                android:textSize="14sp"
                 app:layout_constraintBottom_toTopOf="@+id/nameVacncyToEdkit"
                 app:layout_constraintTop_toBottomOf="@+id/nacnççoEdit"
                 tools:layout_editor_absoluteX="8dp" />
@@ -223,15 +224,15 @@
                 android:inputType="textPersonName|textPassword"
                 android:shadowColor="@color/white"
                 android:textColor="@color/gray_two"
-                android:textColorHint="@color/white"
-                android:textSize="16sp"
+                android:textColorHint="@color/gray_two"
+                android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/nameVacancççyToEdit"
                 tools:layout_editor_absoluteX="-6dp" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button"
+            android:id="@+id/singUpButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
