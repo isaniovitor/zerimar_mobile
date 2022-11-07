@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">zerimar_mobile</string>
+
+    <!-- Strings used for spinners -->
+    <string-array name="specializations">
+        <item>Especializações</item>
+        <item>Especialização 1</item>
+        <item>Especialização 2</item>
+        <item>Especialização 3</item>
+    </string-array>
 </resources>

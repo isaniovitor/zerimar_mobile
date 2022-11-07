@@ -4,7 +4,10 @@
     package="com.example.zerimar_mobile">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-feature android:name="android.hardware.camera2" android:required="true"/>
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -17,6 +20,15 @@
         android:theme="@style/Theme.Zerimar_mobile"
         tools:targetApi="31">
         <activity
+            android:name=".HomeActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".PostPhotoActivity"
             android:exported="false" />
         <activity
@@ -27,12 +39,7 @@
             android:exported="false" />
         <activity
             android:name=".SingInActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
